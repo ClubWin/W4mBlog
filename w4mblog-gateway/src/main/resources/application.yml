@@ -1,1 +1,15 @@
-# 网关的路由规则在这里实现
+# 网关的路由规则在这里实现,配置格式见下面:
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        # 需要路由到的哪个项目，此名称必须是注册已经在nacos 服务注册中心
+#        - id: product_route
+#          # 需要路由到的uri，统一格式为lb://xxxx xxx 为在nacos 中注册的引用名称
+#          uri: lb://shiqlamall-third-part
+#          # 断言：路由的规则，需要路由那些请求
+#          predicates:
+#            - Path=/api/thirdpart/**
+#          # 过滤器：这里是重写了请求地址，过滤器种类为spring gateway 组件内置，详情查阅spring cloud 官方文档
+#          filters:
+#            - RewritePath=/api/thirdpart/(?<segment>.*),/$\{segment}
