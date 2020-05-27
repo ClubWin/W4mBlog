@@ -1,7 +1,7 @@
 ## 创建子模块注意事项:
-  **groupId: 统一为com.clubWin**
-  **artifactId: 为w4mblog-xxx xxx 为子模块名称**
-  **所有的包名称统一为: com.clubwin.xxx  xxx 为子模块名称**
+      **groupId: 统一为com.clubWin**
+      **artifactId: 为w4mblog-xxx xxx 为子模块名称**
+      **所有的包名称统一为: com.clubwin.xxx  xxx 为子模块名称**
 
 ## 项目说明
   #### 本项目由ClubWin开发并发布，一切资料均来源于互联网。
