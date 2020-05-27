@@ -26,4 +26,7 @@
   #### w4mblog-gateway
         网关模块，所有请求的入口，转发请求，解决跨域问题，以及一些权限检查
         ...
+  #### renren-generator
+        一个开源的代码生成工具，可以根据数据表生成基本的entity 类，mybatis mapper 映射文件以及dao 接口类
+        使用说明见renren-generator/readme.md
   #### .....
