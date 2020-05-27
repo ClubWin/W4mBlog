@@ -1,10 +1,10 @@
-package com.clubwin.w4mblogcommon;
+package com.clubwin.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class W4mblogCommonApplicationTests
+class W4mblogGatewayApplicationTests
 {
 
     @Test

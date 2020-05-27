@@ -1,4 +1,4 @@
-package com.clubwin.w4mblogcommon;
+package com.clubwin.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
